@@ -1,0 +1,165 @@
+STUN ? 
+
+sttunctl: [-p <port>] [-i <interface>] [-o <interface>]
+    -p  - Specify a port to listen on for CC requests (currently %d)
+    -i  - Specify an interface for CC messages (currently %s)
+    -o  - Specify an outgoing interface (currently %s)
+
+
+/dev/sttun
+
+eth0
+ppp0
+
+
+Cannot connect to sttun module
+Error attaching to interface
+Opening listening socket
+
+
+/sbin/modprobe ip_conntrack; /sbin/insmod sttunmod-`uname -r`.o
+
+GCC: (GNU) 3.2 20020903 (Red Hat Linux 8.0 3.2-7)
+GCC: (GNU) 3.2 20020903 (Red Hat Linux 8.0 3.2-7)
+GCC: (GNU) 3.2 20020903 (Red Hat Linux 8.0 3.2-7)
+GCC: (GNU) 3.2.2 20030222 (Red Hat Linux 3.2.2-5)
+GCC: (GNU) 3.2 20020903 (Red Hat Linux 8.0 3.2-7)
+GCC: (GNU) 3.2 20020903 (Red Hat Linux 8.0 3.2-7)
+GCC: (GNU) 3.2 20020903 (Red Hat Linux 8.0 3.2-7)
+GCC: (GNU) 3.2 20020903 (Red Hat Linux 8.0 3.2-7)
+
+#__x
+#__c
+#__a
+#low
+
+/usr/src/build/148620-i386/BUILD/glibc-2.2.93/csu
+GNU AS 2.13.90.0.2
+init.c
+../sysdeps/unix/sysv/linux/bits/types.h
+../sysdeps/unix/sysv/linux/bits/sched.h
+../linuxthreads/sysdeps/pthread/bits/pthreadtypes.h
+../wcsmbs/wchar.h
+../sysdeps/gnu/_G_config.h
+../iconv/gconv.h
+/usr/lib/gcc-lib/i386-redhat-linux/3.2/include/stddef.h
+/tmp/ccnhFcil.s
+../../gcc/libgcc2.c
+../../gcc/config/i386/i386.h
+/usr/include/bits/sigset.h
+/usr/include/bits/types.h
+/usr/include/bits/sched.h
+/usr/include/bits/pthreadtypes.h
+/usr/include/time.h
+/usr/include/bits/siginfo.h
+/usr/include/bits/sigaction.h
+/usr/include/signal.h
+/usr/include/asm/sigcontext.h
+/usr/include/bits/sigstack.h
+/usr/include/sys/ucontext.h
+/usr/include/wchar.h
+/usr/include/_G_config.h
+/usr/include/gconv.h
+/usr/include/libio.h
+include/stdio.h
+/usr/include/bits/time.h
+/usr/include/sys/select.h
+/usr/include/stdlib.h
+/usr/include/bits/confname.h
+../../include/getopt.h
+../../gcc/machmode.h                # GCC Middle and Back End API Reference             
+../../gcc/libgcc2.h
+tconfig.h
+include/stddef.h
+include/stdarg.h
+/usr/include/sys/types.h
+/usr/include/unistd.h
+/tmp/ccqfJNVk.s
+
+init.c
+initfini.c
+crtstuff.c
+completed.1
+frame_dummy
+sttunctl.c
+sttun.c
+RC6_KeyExpand               #yep
+fd.0
+libgcc2.c
+__udivmoddi4
+__divdi3
+__dso_handle
+sttun_redirlist
+openSocket              #sweet case bro
+location
+sttun_cc
+euclid              # isnt this one of their things? 
+ntohl
+sigaction
+sockfd
+goIntoBackground                #sweet case bro
+setpgrp
+_DYNAMIC
+sttun_redirset
+write
+outif
+strcmp@@GLIBC_2.0
+usage
+close
+_fp_hw
+perror
+fprintf
+fork
+signal
+waitForConnections              #sweet case bro
+select
+htonl
+bcopy
+__errno_location
+garbageCollection               #sweet case bro
+accept
+system
+_init
+listen
+stderr
+setsockopt
+time
+_start
+ntohs
+sttun_ayt
+sttun_redir
+localsockfd
+__bss_start
+main
+cleanup
+__libc_start_main@@GLIBC_2.0
+data_start
+bind
+sttun_garbagecollection
+_fini
+processArgs             #sweet case bro
+memcpy
+open
+bzero
+exit
+atoi
+_edata
+_GLOBAL_OFFSET_TABLE_
+_end
+ioctl
+htons
+memset
+sttun_detach
+strncpy
+_IO_stdin_used
+inif
+sttun_listen
+getIFAddr               #sweet case bro
+sttun_attach
+processCommand              #sweet case bro
+__data_start
+socket
+_Jv_RegisterClasses
+read
+alarm
+sttun_delete
